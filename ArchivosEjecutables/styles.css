@@ -1,0 +1,86 @@
+/* Estilo general */
+
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar */
+
+.navbar
+{
+    background-color: #001f3f;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+}
+
+.nav-links
+{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li
+{
+    margin: 0 10px;
+}
+
+.nav-links a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* Hero */
+
+.hero 
+{
+    background: url('huanchaca.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1
+{
+    font-size: 3rem;
+}
+
+.hero content p
+{
+    font-size: 1.2rem;
+}
+
+/* Calendario */
+
+.calendario-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.flecha
+{
+    background: #001f3f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#dia-actual
+{
+    margin: 0 20px;
+}
